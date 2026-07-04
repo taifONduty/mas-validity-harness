@@ -1,0 +1,44 @@
+{
+ "features_llama.csv": {
+  "sha256_16": "a01b4b7fce0ea717",
+  "bytes": 305725
+ },
+ "gauntlet_math_incremental.csv": {
+  "sha256_16": "9f5e0e696073013c",
+  "bytes": 4871
+ },
+ "gauntlet_math_univariate.csv": {
+  "sha256_16": "1044209a25743be1",
+  "bytes": 6046
+ },
+ "gauntlet_code-HumanEval_incremental.csv": {
+  "sha256_16": "b8fdbc1ecbf2c927",
+  "bytes": 4950
+ },
+ "gauntlet_code-HumanEval_univariate.csv": {
+  "sha256_16": "ae06f7033ce16183",
+  "bytes": 5987
+ },
+ "scored_math_llama.jsonl": {
+  "sha256_16": "c8738b639a91770a",
+  "bytes": 1971278
+ },
+ "scored_code_llama.jsonl": {
+  "sha256_16": "18cbbf21df8dca27",
+  "bytes": 3147220
+ },
+ "trajs_math_llama.jsonl": {
+  "sha256_16": "1ca04636974d2300",
+  "bytes": 1969836
+ },
+ "trajs_code_llama.jsonl": {
+  "sha256_16": "e675e26f3b278e6a",
+  "bytes": 3145820
+ },
+ "_meta": {
+  "frozen": "2026-07-04 10:00:32.233839",
+  "backbone": "meta-llama/llama-3.1-8b-instruct, temperature 1.0",
+  "protocol": "scorer v3 (official LiC evaluator), temp-0 elicitation + strict retry, role-tag-stripped features, gauntlet v2.1 (repeated 5-fold, two-tier BH-FDR, pre-registered PRIMARY = klrd_excess_slope per role)",
+  "headline": "Complete null: no candidate survives. Baselines-only AUC math=0.681. Best exploratory: planner_rolestab_mean rho=0.470 (promoted to PRIMARY for study 2)."
+ }
+}
