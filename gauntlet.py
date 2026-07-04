@@ -44,7 +44,7 @@ SCREEN_QUANTILE_PERMS = 2000    # permutations for screened candidates
 # Everything else is EXPLORATORY: reported with BH within its own set, but
 # labeled hypothesis-generating only — it can never be a paper claim by
 # itself. Edit PRIMARY_STEMS only BEFORE running on real data, never after.
-PRIMARY_STEMS = ["klrd_excess_slope"]
+PRIMARY_STEMS = ["klrd_excess_slope", "rolestab_mean"]  # rolestab added 2026-07 BEFORE DeepSeek replication, per study-1 exploratory promotion (planner expected locus)
 
 
 def _cols(df, stems):
