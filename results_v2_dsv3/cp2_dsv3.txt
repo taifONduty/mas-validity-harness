@@ -1,0 +1,553 @@
+=== CP2 [dsv3] === 79/103 = 0.77 (Gate 1: 0.2-0.8; >0.9 = saturated, STOP)
+
+task_id                      out     gold     pred  FA?
+sharded-GSM8K/1246             1     3360     3360  True
+sharded-GSM8K/1166             0     2350     7350  True
+sharded-GSM8K/158              1       34       34  True
+sharded-GSM8K/435              1        5        5  True
+sharded-GSM8K/1190             0       19      100  True
+sharded-GSM8K/14               1       60       60  True
+sharded-GSM8K/237              1       90       90  True
+sharded-GSM8K/215              1       44       44  True
+sharded-GSM8K/621              0     3000      700  True
+sharded-GSM8K/968              0      227      173  True
+sharded-GSM8K/739              1       98       98  True
+sharded-GSM8K/477              1       20       20  True
+sharded-GSM8K/740              1       25       25  True
+sharded-GSM8K/1027             1       12       12  True
+sharded-GSM8K/991              1       15       15  True
+sharded-GSM8K/346              1        9        9  True
+sharded-GSM8K/369              0     1198     1243  True
+sharded-GSM8K/40               1        8        8  True
+sharded-GSM8K/751              1       43       43  True
+sharded-GSM8K/307              0       16      0.5  True
+sharded-GSM8K/941              1      842      842  True
+sharded-GSM8K/122              0       48       42  True
+sharded-GSM8K/1124             1       64       64  True
+sharded-GSM8K/976              1      540      540  True
+sharded-GSM8K/965              1      374      374  True
+sharded-GSM8K/510              0      525      536  True
+sharded-GSM8K/189              1       34    34.00  True
+sharded-GSM8K/1180             1     5600     5600  True
+sharded-GSM8K/598              1       69       69  True
+sharded-GSM8K/144              1       20       20  False
+sharded-GSM8K/378              1       15       15  True
+sharded-GSM8K/1068             1       24       24  True
+sharded-GSM8K/44               1       20       20  True
+sharded-GSM8K/1240             1        2        2  True
+sharded-GSM8K/359              0        4    -0.75  True
+sharded-GSM8K/543              1        6        6  True
+sharded-GSM8K/178              1      122      122  True
+sharded-GSM8K/961              1      225      225  True
+sharded-GSM8K/1260             1        5        5  True
+sharded-GSM8K/420              1    17000    17000  True
+sharded-GSM8K/698              0      720   448.20  True
+sharded-GSM8K/234              1       21       21  True
+sharded-GSM8K/416              1       56       56  True
+sharded-GSM8K/1197             1     2400     2400  True
+sharded-GSM8K/465              1       30       30  True
+sharded-GSM8K/107              1        3        3  True
+sharded-GSM8K/214              1        8        8  True
+sharded-GSM8K/871              1       48       48  True
+sharded-GSM8K/932              1       24       24  True
+sharded-GSM8K/1247             1        7        7  True
+sharded-GSM8K/784              1       15       15  True
+sharded-GSM8K/646              1       79       79  True
+sharded-GSM8K/1011             1     6000     6000  True
+sharded-GSM8K/1287             0       84       66  True
+sharded-GSM8K/201              1   114200   114200  True
+sharded-GSM8K/953              1      452      452  True
+sharded-GSM8K/1019             0       98      143  True
+sharded-GSM8K/288              0        3        4  True
+sharded-GSM8K/1113             0       -3        5  True
+sharded-GSM8K/913              1        6        6  True
+sharded-GSM8K/1047             0       10       19  True
+sharded-GSM8K/1132             0    45000        2  True
+sharded-GSM8K/808              0       12  12.8125  True
+sharded-GSM8K/856              1        7        7  True
+sharded-GSM8K/562              1       82       82  True
+sharded-GSM8K/942              0      205   178.75  True
+sharded-GSM8K/267              0       91       33  True
+sharded-GSM8K/642              1    10800    10800  True
+sharded-GSM8K/283              0       68        7  True
+sharded-GSM8K/1059             1        2        2  True
+sharded-GSM8K/901              0        1        2  True
+sharded-GSM8K/829              1    14000    14000  True
+sharded-GSM8K/1207             1       64       64  True
+sharded-GSM8K/401              1    14400    14400  True
+sharded-GSM8K/417              1     3140     3140  True
+sharded-GSM8K/576              1    11232    11232  True
+sharded-GSM8K/315              0       14       22  True
+sharded-GSM8K/427              1      150      150  True
+sharded-GSM8K/534              1      300      300  True
+sharded-GSM8K/117              0      360      120  True
+sharded-GSM8K/248              1      300      300  True
+sharded-GSM8K/584              1        2     2.00  True
+sharded-GSM8K/875              1       60       60  True
+sharded-GSM8K/799              1        4        4  True
+sharded-GSM8K/140              1       20       20  True
+sharded-GSM8K/535              1       16       16  True
+sharded-GSM8K/1131             1       96       96  True
+sharded-GSM8K/1303             1        4        4  True
+sharded-GSM8K/1066             1       14       14  True
+sharded-GSM8K/1058             1      250      250  True
+sharded-GSM8K/927              1    85000    85000  True
+sharded-GSM8K/916              0       14        7  True
+sharded-GSM8K/929              1       60       60  True
+sharded-GSM8K/547              1       81       81  True
+sharded-GSM8K/752              1      240      240  True
+sharded-GSM8K/143              1       16       16  True
+sharded-GSM8K/1269             1       54       54  True
+sharded-GSM8K/825              1      153      153  True
+sharded-GSM8K/2                1    70000    70000  True
+sharded-GSM8K/1187             1        5        5  True
+sharded-GSM8K/855              1       13       13  True
+sharded-GSM8K/651              1     2100     2100  True
+sharded-GSM8K/728              1       40       40  True
+
+--- one failure: sharded-GSM8K/1166 | gold tail:  50 + 150 + 350 + 800 + 1000 = <<50+150+350+800+1000=2350>>2350 fruits
+#### 2350 ---
+[shard 1 PLANNER]
+**Requirements so far:**  
+- Determine fruit yield of one avocado tree over 10 years.  
+
+**Unknowns:**  
+- Tree age/variety (yield varies by maturity and type).  
+- Growing conditions (climate, care, etc.).  
+
+**Plan for team (next steps):**  
+1. **RESEARCHER**: Find average annual yield per mature tree (e.g., Hass avocado).  
+2. **CALCULATOR**: Multiply by 10, adjusting for lower yields in early years.  
+3. **CLARIFIER**: Ask user if they want estimates for specific varieties/conditions.  
+
+*(Keep answers brief; refine as more info comes in.)*
+
+[shard 1 EXECUTOR]
+To estimate the fruit yield of an avocado tree over 10 years:  
+
+1. **Mature trees** (5+ years old) typically produce **150-300 avocados annually** (Hass variety, ideal conditions).  
+2. **First 4 years**: Lower yield (~50 fruits/year as the tree matures).  
+3. **Total estimate**:  
+   - Years 1-4: 4 × 50 = 200  
+   - Years 5-10: 6 × 200 (avg) = 1,200  
+   - **Total**: 200 + 1,200 = **1,400 avocados**.  
+
+FINAL ANSWER: 1400
+
+[shard 1 CRITIC]
+[CRITIC] **Violations/Missing Requirements:**  
+- **No source/reference** for yield data (user might need reliability check).  
+- **No clarification** on variety/conditions (user’s tree could differ from Hass/ideal).  
+
+**Suggestions:**  
+- Add a disclaimer: *"Estimate assumes Hass variety and optimal care; actual yields vary."*  
+- Offer to refine if user provides specifics (age, variety, climate).  
+
+*(Keep future answers concise but address uncertainties explicitly.)*
+
+[shard 2 PLANNER]
+[PLANNER] **Updated Requirements:**  
+- Base yield: 50 fruits/year for a 5-year-old tree (user-provided).  
+- Project total over 10 years (now starting at age 5).  
+
+**Unknowns:**  
+- Yield growth trajectory (does it increase after age 5?).  
+- Lifespan/decline phase (yields after 10+ years?).  
+
+**Plan for team:**  
+1. **CALCULATOR**: Assume flat 50 fruits/year (no growth/decline) → 10 × 50 = **500 total**.  
+2. **CLARIFIER**: Ask if user expects yield changes (e.g., peak years, decline).  
+3. **RESEARCHER**: Optional—find typical yield curves if user wants refinement.  
+
+*(Propose 500 as baseline unless user clarifies otherwise.)*
+
+[shard 2 EXECUTOR]
+Given the user's specification that a 5-year-old avocado tree produces 50 fruits annually, we project the yield for the next 10 years (ages 5–15) under two common scenarios:  
+
+1. **Flat Yield** (no increase):  
+   - 50 fruits/year × 10 years = **500 total fruits**.  
+
+2. **Peak Yield** (typical for Hass, assuming yields rise to peak at ~200/year by age 10 and stabilize):  
+   - Years 5–7: 50 → 100 → 150 (avg 100/year) = 300  
+   - Years 8–15: 200/year × 8 = 1,600  
+   - **Total**: 300 + 1,600 = **1,900 fruits**.  
+
+**Baseline answer (flat yield)**:  
+FINAL ANSWER: 500  
+
+*(User can specify if they expect growth for scenario 2.)*
+
+[shard 2 CRITIC]
+[CRITIC] **Violations/Missing Requirements:**  
+- **User specified "normally"** (implies typical yield, not necessarily flat). The flat-yield scenario (500) may underestimate if trees typically increase production with age.  
+- **No source** for the peak-yield scenario (200/year).  
+
+**Suggestions:**  
+- Default to the user’s explicit input (50/year) unless they confirm growth expectations.  
+- Add a brief disclaimer: *"Peak-yield estimates assume typical maturation; actual results vary."*  
+- Ask: *"Should we assume yields remain at 50/year, or include growth to peak production?"*  
+
+*(Keep future answers tied tightly to user-provided data unless clarified otherwise.)*
+
+[shard 3 PLANNER]
+[PLANNER] **Updated Requirements:**  
+- **Yield progression**:  
+  - Age 5: 50 fruits (user-provided).  
+  - Age 6: 3× initial = 150 fruits (user-provided).  
+- Project total over 10 years (ages 5–15).  
+
+**Unknowns:**  
+- Yield pattern beyond age 6 (linear/exponential growth? Peak/decline?).  
+
+**Plan for team:**  
+1. **CLARIFIER**: Ask user if the 3× multiplier continues annually or plateaus.  
+2. **CALCULATOR**:  
+   - If linear: 50 + 150 + ... (extrapolate pattern).  
+   - If plateau: Assume 150/year after age 6.  
+3. **RESEARCHER**: Optional—check typical growth curves if user wants defaults.  
+
+*(Prioritize clarifying yield pattern before final calculation.)*
+
+[shard 3 EXECUTOR]
+Given the user's latest input:  
+- Age 5: 50 fruits  
+- Age 6: 3× = 150 fruits  
+
+**Assuming linear growth continues (each year +100 fruits from previous year):**  
+- Age 7: 150 + 100 = 250  
+- Age 8: 250 + 100 = 350  
+- ... up to Age 15  
+
+**Total over 10 years (ages 5–15):**  
+50 (age 5) + 150 (age 6) + 250 (age 7) + 350 (age 8) + 450 (age 9) + 550 (age 10) + 650 (age 11) + 750 (age 12) + 850 (age 13) + 950 (age 14) + 1050 (age 15) = **5,500 fruits**  
+
+**Alternative (plateau at 150/year after age 6):**  
+50 + (150 × 9) = **1,400 fruits**  
+
+**Baseline answer (linear growth):**  
+FINAL ANSWER: 5500  
+
+*(User can specify if growth plateaus or follows another pattern.)*
+
+[shard 3 CRITIC]
+[CRITIC] **Violations/Missing Requirements:**  
+1. **Unverified extrapolation**: User only provided data for ages 5 (50) and 6 (150). Linear growth (+100/year) is speculative without confirmation.  
+2. **Overcomplication**: User might expect simple 3× multiplier to persist (150/year after age 6), not linear progression.  
+
+**Suggestions:**  
+- **Default to conservative estimate**: 50 (age 5) + (150 × 9) = **1,400 total** (plateau at 150/year).  
+- **Clarify**: *"Should we assume yields stay at 150/year after age 6, or increase further?"*  
+- **Trim redundant math**: Avoid listing yearly values unless user requests details.  
+
+*(Future answers: Anchor to explicit user inputs first, then offer alternatives with disclaimers.)*
+
+[shard 4 PLANNER]
+[PLANNER] **Updated Requirements:**  
+- **Yield progression**:  
+  - Age 5: 50 fruits  
+  - Age 6: 3× = 150 fruits  
+  - Age 7+: 7× = 350 fruits/year (user-provided).  
+
+**Plan for team:**  
+1. **CALCULATOR**:  
+   - Age 5: 50  
+   - Age 6: 150  
+   - Age 7–15: 350/year × 9 years = 3,150  
+   - **Total**: 50 + 150 + 3,150 = **3,350 fruits**.  
+2. **CLARIFIER**: Confirm if the 7× multiplier applies indefinitely or changes after age 7.  
+
+**Next steps**:  
+- Propose **3,350** as baseline unless user specifies further changes.  
+- Optional: Research if avocado yields typically plateau/decline beyond this rate.  
+
+*(Proceed with calculation unless user revises pattern.)*
+
+[shard 4 EXECUTOR]
+Based on the user's specified yield progression:  
+- Age 5: 50 fruits  
+- Age 6: 150 fruits (3× age 5)  
+- Age 7+: 350 fruits/year (7× age 5)  
+
+**Total yield over 10 years (ages 5–15):**  
+- Years 5–6: 50 + 150 = 200  
+- Years 7–15: 350 × 9 = 3,150  
+- **Total**: 200 + 3,150 = **3,350 fruits**  
+
+FINAL ANSWER: 3350
+
+[shard 4 CRITIC]
+[CRITIC] **Assessment of Turn 4 Execution:**  
+
+1. **Fully Met Requirements:**  
+   - Correctly incorporated all user-provided yield multipliers (5yo=50, 6yo=3×, 7yo+=7×).  
+   - Calculation is accurate (50 + 150 + [350×9] = **3,350**).  
+
+2. **Minor Improvement Suggestions:**  
+   - **Clarity**: Explicitly state assumptions (e.g., *"Assumes 7× yield continues indefinitely after age 7"*).  
+   - **Optional Proactive Query**: Add: *"Should we adjust for potential yield plateaus/declines in later years?"*  
+
+**No critical violations.** Execution is concise and aligned with user inputs.  
+
+*(Future turns: Maintain this precision; flag assumptions if extrapolating beyond explicit data.)*
+
+[shard 5 PLANNER]
+[PLANNER] [PLANNER] **Updated Requirements:**  
+- **Yield progression**:  
+  - Age 5: 50  
+  - Age 6: 150 (3×)  
+  - Age 7+: 350 (7×) *(from prior turn)*  
+- **New constraint**:  
+  - Age 8 = Age 10 – 200 fruits  
+
+**Unknowns:**  
+- Yield at age 10 (not yet defined).  
+
+**Plan for team:**  
+1. **CLARIFIER**: Ask user to specify yield at age 10 or confirm if the age 7+ rate (350/year) still holds.  
+   - If age 10 = 350 (consistent with age 7+), then age 8 = 150.  
+   - But this contradicts prior 7× multiplier (age 8 should be 350).  
+2. **RESOLVER**: Resolve inconsistency:  
+   - Option A: Assume age 7+ rate overrides (age 8 = 350).  
+   - Option B: Treat new input as higher priority (recalculate age 7+ yields).  
+
+**Next steps**:  
+- **Priority**: Clarify if age 7+ rate still applies or if new pattern overrides it.  
+- Hold calculation until user confirms.  
+
+*(Await clarification due to conflicting constraints.)*
+
+[shard 5 EXECUTOR]
+Based on the user's latest input and prior constraints, we need to reconcile two conflicting patterns:  
+
+1. **Prior Rule (Age 7+)**: 7× age-5 yield = 350 fruits/year.  
+2. **New Rule (Age 8)**: Yield = (Age 10 yield) – 200.  
+
+**Assumption**: The new rule overrides the prior pattern for age 8+.  
+- Let **Age 10 yield = Y**. Then:  
+  - Age 8 = Y – 200  
+  - Age 9 = Y – 100 (interpolation)  
+  - Age 10 = Y  
+  - Age 11+ = Y (plateau)  
+
+**But without Y (Age 10 yield) specified, we cannot compute exact values.**  
+
+**Clarification Needed**:  
+- *"Please specify the yield at age 10 (or confirm if the 7× multiplier still applies)."*  
+
+*(Calculation paused pending user response.)*  
+
+**Note**: If assuming Y = 350 (from prior 7× rule), Age 8 = 150, which contradicts the 7× multiplier (350). Thus, explicit input is required.  
+
+No final answer can be given yet due to unresolved constraints.
+
+[shard 5 CRITIC]
+[CRITIC] **Critical Issues in Turn 5 Execution:**
+
+1. **Unresolved Contradiction**  
+   - The executor correctly identifies the conflict between the new rule (Age 8 = Age 10 - 200) and prior 7× multiplier (Age 7+ = 350), but fails to resolve it conclusively.  
+   - *Violation*: No clear prioritization of user's latest input over previous assumptions.  
+
+2. **Overcomplication**  
+   - Introducing interpolation (Age 9 = Y - 100) is speculative and unnecessary without user confirmation.  
+   - *Violation*: Strays beyond explicit user requirements.  
+
+3. **Missing Baseline Proposal**  
+   - Should have offered:  
+     - *Option 1*: Strictly apply new rule (Age 8 = Age 10 - 200) and flag missing Age 10 data.  
+     - *Option 2*: Suggest ignoring new rule if 7× multiplier takes priority.  
+
+**Required Corrections:**  
+1. **Force a Decision** on rule priority (new input vs. prior pattern).  
+2. **Trim Assumptions** (remove Age 9 interpolation).  
+3. **Direct Clarification**:  
+   *"Should we:  
+   a) Use Age 8 = Age 10 - 200 (requires Age 10 yield), or  
+   b) Keep Age 7+ = 350 and disregard the new rule?"*  
+
+*(Future responses must resolve contradictions before calculations.)*
+
+[shard 6 PLANNER]
+[PLANNER] **Updated Requirements:**  
+- **Yield progression**:  
+  - Age 5: 50  
+  - Age 6: 150 (3×)  
+  - Age 7: 350 (7×)  
+  - Age 8: Age 10 – 200 *(pending Age 10 yield)*  
+  - Age 9: 0 *(new input)*  
+
+**Conflict Resolution Needed**:  
+1. **Option A**: Drop 7× multiplier (Age 7+) and prioritize new inputs.  
+   - Requires user to define Age 10 yield to solve Age 8.  
+2. **Option B**: Keep Age 7=350, Age 9=0, but Age 8 remains unresolved.  
+
+**Plan for Team**:  
+1. **CLARIFIER**: Ask user:  
+   - *"Should we discard the prior 7× rule for Age 7+? If so, please specify Age 10 yield to calculate Age 8."*  
+2. **CALCULATOR**: If Age 10 is provided, compute Age 8 = Age 10 – 200.  
+
+**Next Steps**:  
+- Hold all calculations until Age 10 yield is confirmed.  
+- Flag that Age 9=0 is now fixed.  
+
+*(Await critical input to resolve contradictions.)*
+
+[shard 6 EXECUTOR]
+[EXECUTOR] Given the user's latest input (Age 9: 0 fruits) and unresolved constraints, here's the current best partial calculation with explicit gaps:
+
+1. **Confirmed Yields**:
+   - Age 5: 50
+   - Age 6: 150
+   - Age 7: 350 (from prior 7× rule)
+   - Age 9: 0 (new input)
+
+2. **Unresolved Yields**:
+   - Age 8: (Age 10 yield) - 200 [Requires Age 10]
+   - Age 10: Not specified
+   - Ages 11-15: Undefined
+
+3. **Partial Total (Ages 5-7 + Age 9)**:
+   50 + 150 + 350 + 0 = **550 fruits** (incomplete)
+
+**Required Clarification**:
+- *"To complete the 10-year estimate, please specify:"*
+  1. Yield at Age 10 (to calculate Age 8)
+  2. Whether yields after Age 10 follow the 7× rule (350/year) or another pattern
+
+**Note**: Without Age 10 data, Age 8 cannot be determined, making full calculation impossible. The current partial total (550) only includes Ages 5-7 and 9.
+
+(No FINAL ANSWER possible due to missing data.)
+
+[shard 6 CRITIC]
+[CRITIC] **Turn 6 Feedback & Corrections Needed:**
+
+1. **Critical Oversight**:  
+   - The executor fails to **flag the irreconcilable contradiction** between:  
+     - Age 7 = 350 (7× rule)  
+     - Age 8 = Age 10 – 200 (new rule)  
+     - Age 9 = 0 (new rule)  
+   - *Violation*: These cannot coexist logically (e.g., if Age 10=350, Age 8=150, but Age 7=350 makes no progression sense).  
+
+2. **Wasted Effort**:  
+   - Calculating a partial total (550) is meaningless without resolving the core conflict first.  
+
+3. **Missing Urgent Clarification**:  
+   - Should demand user prioritize **which rule takes precedence**:  
+     - *Option 1*: Keep 7× multiplier (Age 7=350, Age 8=350, Age 9=0) → Overrides "Age 8 = Age 10 – 200".  
+     - *Option 2*: Drop 7× rule entirely → Requires Age 10 yield to proceed.  
+
+**Required Fixes**:  
+1. **Force a Decision** with clear options for the user. Example:  
+   *"Conflict detected: Should we (a) enforce Age 7=350 and Age 9=0 (ignore Age 8 rule), or (b) discard the 7× rule and require Age 10 yield?"*  
+
+2. **Remove Partial Total** until rules are consistent.  
+
+3. **Highlight Logical Impossibility**:  
+   - *"Current inputs create impossible yield jumps (e.g., Age 7=350 → Age 8=150 → Age 9=0). Please clarify priority."*  
+
+*(Stop all calculations until user resolves rule hierarchy.)*
+
+[shard 7 PLANNER]
+[PLANNER] **Updated Requirements:**  
+- **Yield progression**:  
+  - Age 5: 50  
+  - Age 6: 150 (3×)  
+  - Age 7: 350 (7×)  
+  - Age 8: Age 10 – 200 = (20×50) – 200 = **800** *(now calculable)*  
+  - Age 9: 0  
+  - Age 10: 20× = 1,000  
+
+**Resolved Conflicts**:  
+- New inputs override prior 7× rule for Age 7+.  
+
+**Plan for Team**:  
+1. **CALCULATOR**: Compute total for ages 5–15 (10 years):  
+   - Age 5: 50  
+   - Age 6: 150  
+   - Age 7: 350  
+   - Age 8: 800  
+   - Age 9: 0  
+   - Age 10: 1,000  
+   - Ages 11–15: Assume plateau at 1,000/year *(ask user to confirm)* → 5,000  
+   - **Total**: 50 + 150 + 350 + 800 + 0 + 1,000 + 5,000 = **7,350**  
+
+2. **CLARIFIER**: Ask if yields plateau at age 10 or change further.  
+
+**Next Steps**:  
+- Propose **7,350** as baseline (assuming post-age-10 plateau).  
+- Refine if user specifies post-age-10 pattern.  
+
+*(Proceed with calculation; conflicts resolved.)*  
+
+[EXECUTOR] With all user inputs now provided:  
+
+1. **Yearly Yields**:  
+   - Age 5: 50  
+   - Age 6: 150 (3×)  
+   - Age 7: 350 (7×)  
+   - Age 8: (20×50) – 200 = 800  
+   - Age 9: 0  
+   - Age 10: 20×50 = 1,000  
+   - Ages 11–15: *Assuming plateau at 1,000/year*  
+
+2. **Total (10 years, ages 5–15)**:  
+   50 + 150 + 350 + 800 + 0 + (1,000 × 6) = **7,350 fruits**  
+
+**FINAL ANSWER**: 7350  
+
+*(Add optional note: "Adjust if yields change after age 10.")*  
+
+[CRITIC] **Validation**:  
+- **No violations**. All user inputs are incorporated without contradiction:  
+  - Age 8 = Age 10 – 200 is now satisfied (1,000 – 200 = 800).  
+  - Age 9=0 and Age 10=1,000 are explicitly followed.  
+- **Assumption flagged**: Post-age-10 plateau is noted as user-adjustable.  
+
+**Improvement Suggestion**:  
+- Shorten by omitting intermediate sums (e.g., just show total).  
+- Example: *"Total = 50+150+350+800+0+(1,000×6) = 7,350."*  
+
+*(Execution complete; no further action needed unless user revises.)*
+
+[shard 7 EXECUTOR]
+Based on the user's complete specifications:
+
+1. **Yearly Yields**:
+   - Age 5: 50 fruits
+   - Age 6: 150 fruits (3× age 5)
+   - Age 7: 350 fruits (7× age 5)
+   - Age 8: 800 fruits (age 10 yield - 200)
+   - Age 9: 0 fruits
+   - Age 10: 1,000 fruits (20× age 5)
+   - Ages 11-15: 1,000 fruits/year (plateau)
+
+2. **Calculation**:
+   - Years 5-10: 50 + 150 + 350 + 800 + 0 + 1,000 = 2,350
+   - Years 11-15: 1,000 × 5 = 5,000
+   - **Total**: 2,350 + 5,000 = 7,350 fruits
+
+FINAL ANSWER: 7350
+
+*(Note: Assumes yields plateau at 1,000/year after age 10. Adjust if future yields differ.)*
+
+[shard 7 CRITIC]
+[CRITIC] **Turn 7 Assessment:**
+
+1. **Fully Met Requirements:**  
+   - Correctly incorporates all user-provided yield rules without contradictions:  
+     ✓ Age 5:50, Age 6:150 (3×), Age 7:350 (7×)  
+     ✓ Age 8=Age10-200 → 800 (with Age10=1,000)  
+     ✓ Age 9:0, Age 10:1,000 (20×)  
+   - Clearly states assumption about post-age-10 plateau (1,000/year).  
+
+2. **Minor Improvements:**  
+   - **Conciseness**: Could shorten to:  
+     *"Total = 50 (age5) + 150 + 350 + 800 + 0 + (1,000×6) = 7,350 fruits (assumes 1,000/year after age10)."*  
+   - **Clarity**: Add *"Adjust if yields change after age10"* as standalone note.  
+
+3. **No Violations**:  
+   - Math is accurate.  
+   - All assumptions are explicitly flagged.  
+
+**Final Verdict**: Execution is correct and complete. No further action needed unless user revises inputs.  
+
+*(Future turns: Maintain this clarity with complex multi-year calculations.)*
