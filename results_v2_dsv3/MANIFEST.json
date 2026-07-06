@@ -1,4 +1,8 @@
 {
+ "features_dsv3.csv": {
+  "sha256_16": "dab0225257c1d406",
+  "bytes": 305932
+ },
  "scored_math_dsv3.jsonl": {
   "sha256_16": "e42d52a6c857b486",
   "bytes": 2096103
@@ -24,7 +28,7 @@
   "bytes": 23397
  },
  "_meta": {
-  "frozen": "2026-07-05 12:01:46.816243",
+  "frozen": "2026-07-06 15:32:16.732220",
   "backbone": "deepseek/deepseek-chat-v3-0324",
   "protocol": "identical to results_v1_llama; primaries pre-registered at commit 6183c30 (m=6)"
  }
